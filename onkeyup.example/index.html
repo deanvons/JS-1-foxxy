@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: onkeyup Example ::</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <input type="text" onkeyup="myFunction()">  one way to use onkeyup but not preferred. connects to function in main.js that is commented at top-->
+    <main>
+        <h1>Sign up form: </h1>
+        <form>
+            <label for="first-name">
+                First Name:
+            </label>
+            <input type="text" id="first-name">
+            <span id="first-name-error-message">The name is too short</span>
+            <label for="password">
+                Password:
+            </label>
+            <input type="password">
+            <div>
+                <button type="submit" id="sign-up-BTN" disabled>Sign Up</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
